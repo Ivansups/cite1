@@ -1,0 +1,70 @@
+body {
+    background-color: #4d4d4d;
+}
+
+aside {
+    float: right;
+    background: #181818;
+    width: 22%;
+    padding: 2.5%;
+    height: 100vh;
+    color: white;
+    border-left: 10px solid #4d4d4d;
+    margin-right: 25px solid green;
+
+}
+
+aside img{
+    width: 8em;
+    float: right;
+}
+
+aside .logo {
+    font-size: 2em;
+    margin-left: -0.1em;
+    font-size: bold;
+    position: relative;
+    top: 1em;
+    color: green;
+}
+
+aside h3 {
+    margin-top: 3em;
+    font-size: 30px;
+    color: green;
+}
+
+aside ul {list-style: none;}
+
+aside ul li{
+    color: green;
+    display: block;
+    margin-top: 5px;
+    margin-right: 10px;
+    transition: transform .4s;
+}
+
+aside ul li:hover, aside ul a:hover {
+    color: chartreuse;
+    text-decoration: none;
+    transform: scale(1.1);
+}
+
+main .ficha {
+    float: left;
+    color: white;
+    margin-top: 100px;
+    text-align: center;
+    width: 40%;
+    margin-left: 25em;
+}
+
+main .news_1 {
+    float: left;
+    margin-left: 2em;
+    width: 76%;
+}
+
+
+main .guda {
+}

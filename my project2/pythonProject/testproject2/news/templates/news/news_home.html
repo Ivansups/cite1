@@ -1,0 +1,20 @@
+{% extends 'main/layout.html' %}
+
+{% block title %}Новости на сайте{% endblock %}
+
+{% block content %}
+    <div class="news_1">
+        <center><h1>Добро пожаловать!</h1>
+        <h3>Я разрабатываю сайт, здесь находится новостная страница.</h3></center>
+        {% if news %}
+            {% for el in news %}
+                <div class="alert alert-success">
+                    <h3>{{ el.titl}}</h3>
+                    <p>{{el.full_txt}}</p>
+                </div>
+            {% endfor %}
+        {% else %}
+            <p>На данный момент на сайте нет активных новостей</p>
+        {% endif %}
+    </div>
+{% endblock %}
