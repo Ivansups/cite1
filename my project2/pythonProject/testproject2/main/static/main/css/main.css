@@ -67,4 +67,14 @@ main .news_1 {
 
 
 main .guda {
+    color: aliceblue;
+    width: 50%;
+    float: left;
+    text-align: center;
+    margin-left: 18em;
+    margin-top: 8em;
+}
+
+aside button {
+    margin-top: 1em;
 }
